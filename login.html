@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vin.Wardrobe</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <nav class="section__container nav__container">
+    <a href="index.html" class="nav__logo">Vin.Wardrobe</a>
+    <ul class="nav__links">
+      <li class="link"><a href="#">Pagina principala</a></li>
+      <li class="link"><a href="#">COLECTII NOI</a></li>
+      <li class="link"><a href="#">CONTACTEAZA-NE</a></li>
+    </ul>
+    <div class="nav__icons">
+      <span><i class="ri-shield-user-line"></i></span>
+      <span><i class="ri-search-line"></i></span>
+      <span><i class="ri-shopping-bag-2-line"></i></span>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <div class="title-text">
+      <div class="title login">Logare</div>
+      <div class="title signup">Inregistrare</div>
+    </div>
+    <div class="form-container">
+      <div class="slide-controls">
+        <input type="radio" name="slide" id="login" checked>
+        <input type="radio" name="slide" id="signup">
+        <label for="login" class="slide login">Logare</label>
+        <label for="signup" class="slide signup">Inregistrare</label>
+        <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+        <form action="#" class="login">
+          <div class="field">
+            <input type="text" placeholder="Email" required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Parola" required>
+          </div>
+          <div class="pass-link"><a href="#">Ai uitat parola?</a></div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Logare">
+          </div>
+          <div class="signup-link">Nu esti membru? <a href="#">Inregistreaza-te</a></div>
+        </form>
+        <form action="#" class="signup">
+          <div class="field">
+            <input type="text" placeholder="Email" required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Parola" required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Confirma parola" required>
+          </div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Inregistreaza-te">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="login.js"></script>
+
+</body>
+</html>
